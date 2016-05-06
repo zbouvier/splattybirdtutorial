@@ -18,12 +18,24 @@
     "main"
    ]
   },
+	{
+		"name": "./systems/simulation/jump",
+		"scenes": [
+			"main"
+		]
+	},
   {
    "name": "splat-ecs/lib/systems/control-player",
    "scenes": [
     "main"
    ]
   },
+	{
+		"name": "./systems/simulation/gravity",
+		"scenes": [
+			"main"
+		]
+	},
   {
    "name": "splat-ecs/lib/systems/apply-movement-2d",
    "scenes": [
@@ -54,12 +66,18 @@
     "main"
    ]
   },
-  {
-   "name": "./systems/simulation/sample-simulation-system",
-   "scenes": [
-    "main"
-   ]
-  }
+	{
+		"name": "./systems/simulation/rotate",
+		"scenes": [
+			"main"
+		]
+	},
+	{
+		"name": "./systems/simulation/handleButtonPress",
+		"scenes": [
+			"main"
+		]
+	}
  ],
  "renderer": [
   {
@@ -74,18 +92,24 @@
     "main"
    ]
   },
-  {
-   "name": "./systems/renderer/sample-renderer-system",
-   "scenes": [
-    "main"
-   ]
-  },
+	{
+		"name": "./systems/renderer/draw-background",
+		"scenes": [
+			"main"
+		]
+	},
   {
    "name": "splat-ecs/lib/systems/draw-image",
    "scenes": [
     "main"
    ]
   },
+	{
+		"name": "./systems/renderer/crop-game",
+		"scenes": [
+			"main"
+		]
+	},
   {
    "name": "splat-ecs/lib/systems/draw-rectangles",
    "scenes": [
