@@ -41,6 +41,9 @@
 				"x": 0,
 				"y": 0
 			},
+			"constrainPosition": {
+				"id": 2
+			},
 			"playerController2d": {
 				"jump": "space"
 			},

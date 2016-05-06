@@ -6,6 +6,12 @@
     "main"
    ]
   },
+	{
+	 "name": "splat-ecs/lib/systems/match-center",
+	 "scenes": [
+		"main"
+	 ]
+	},
   {
    "name": "splat-ecs/lib/systems/advance-timers",
    "scenes": [
